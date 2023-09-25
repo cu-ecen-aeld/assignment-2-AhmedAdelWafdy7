@@ -1,0 +1,760 @@
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+~/Desktop/assignment-1-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/3yfAtpcI7lAXvKbM1cTbreEGlPlTmt7h/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+~/Desktop/assignment-1-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/PjqQXToIFw4XcIf3ODs11MCSeaTsBT16/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+~/Desktop/assignment-1-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/My4Pq3MhzLtu2yWHA7RERRJzf6lU5IHM/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+~/Desktop/assignment-1-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/1zBIf0s3nlpxtTrC1CDwAhl5N3l2d8Q1/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+~/Desktop/assignment-1-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/VUmmGTHeFRKBVgGNn8t6fjPo4qWBn7v4/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+~/Desktop/assignment-1-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/7JJOJMwBavoUXKLCPie3FRqsMq6ZO3CY/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+~/Desktop/assignment-1-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-1-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-1-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/0ZhOUpdgM4iu70sSlD33z90YQTU4dG99/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user benwafdy
+-- Generating ;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-2-AhmedAdelWafdy7
+~/Desktop/assignment-2-AhmedAdelWafdy7/finder-app ~/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1 ~/Desktop/assignment-2-AhmedAdelWafdy7
+Usage: ./writer.sh <writefile> <writestr>
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/MDC56adAx1csZ4BeSpZZh9p1RUFPepl1/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
