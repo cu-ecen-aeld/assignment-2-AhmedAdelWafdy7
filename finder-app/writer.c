@@ -1,42 +1,42 @@
-#include <stdio.h>
-#include <errno.h>
 #include <syslog.h>
+#include <errno.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <libgen.h>
+#include <string.h>
 
-int main(int argc, char** argv)
-{
-	FILE* f;
-	char* writefile;
-	char* writestr;
+int main(int argc , char *argv[]){
 
-	openlog(NULL, 0, LOG_USER); 
+	FILE *fptr;
 
-	if (argc != 3)
-	{
-		syslog(LOG_ERR, "Invalid number of arguments: %d", argc);
-		return 1;
+	fptr=fopen( argv[1] ,"w");
+	if ( fptr !=NULL){
+		fprintf(fptr,"%s",argv[2]);
+	        printf("%s",argv[2]);
+
+
+		openlog(NULL,0,LOG_USER);
+
+		syslog(LOG_ERR,"***********ERROR************ : %d",argc);
+	        printf(" ***********ERROR************ \n");
+
+		syslog(LOG_DEBUG,"Writing %s to %s",argv[2],argv[1]);
+		fclose(fptr);}
+	else{
+
+		if (argv[1]==NULL || argv[2]==NULL){
+	        	syslog(LOG_ERR,"***********ERROR************sqqsqsqsqsq : %d",argc);
+                	printf(" ***********ERROR****cqwdcwqdqwdqwcdqw********\n ");
+			exit(1);
+		}
 	}
 
-	writefile = argv[1];
-	writestr = argv[2];
+	//char* ts1 = strdup(argv[1]);
+	//char* ts2 = strdup(argv[1]);
 
-	f = fopen(writefile, "w");
+	//char* dir = dirname(ts1);
+	//char* filename = basename(ts2);
 
-	if (!f)
-	{
-		syslog(LOG_ERR, "Could not open the file: %m");
-		return 1;
-	}
 
-	int bytes_written = fprintf(f, "%s", writestr);
-	if (bytes_written < 0)
-	{
-		syslog(LOG_ERR, "Error writing the data to the file");
-		return 1;
-	}
-
-	fclose(f);
-
-	syslog(LOG_DEBUG, "Writing %s to %s", writestr, writefile);
-
-	return 0;
 }
+

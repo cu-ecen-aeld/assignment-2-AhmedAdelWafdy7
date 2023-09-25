@@ -1,12 +1,27 @@
-CC := $(CROSS_COMPILE)gcc
-LD := $(CROSS_COMPILE)ld
-ASM := $(CROSS_COMPILE)asm
-CFLAGS ?= -Wall -g
+# Makefile for writer.c
 
-.PHONY: clean all
-all: writer
+# Compiler
+ifdef CROSS_COMPILE
+CC = $(CROSS_COMPILE)gcc
+else
+CC = gcc
+endif
 
-writer: writer.o
+
+# Compiler flags
+CFLAGS = -Wall -Wextra
+
+# Source file
+SRC = writer.c
+
+# Output executable
+OUTPUT = writer
+
+all: $(OUTPUT)
+
+$(OUTPUT): $(SRC)
+	$(CC) $(CFLAGS) -o $(OUTPUT) $(SRC)
 
 clean:
-	rm -f writer *.o
+	rm -f $(OUTPUT)
+

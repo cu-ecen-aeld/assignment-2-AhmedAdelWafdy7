@@ -906,3 +906,87 @@ AELD_IS_FUN
 The number of files are 10 and the number of matching lines are 10
 success
 Test of assignment assignment2 complete with success
+Running test with user benwafdy
+CMake Error: The current CMakeCache.txt directory /home/benwafdy/assignment-2-AhmedAdelWafdy7/build/CMakeCache.txt is different than the directory /home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/benwafdy/assignment-2-AhmedAdelWafdy7/CMakeLists.txt" does not match the source "/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+-- Generating ;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/build
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 33%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 50%] Linking C executable assignment-autotest
+/usr/bin/ld: cannot find CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o: No such file or directory
+/usr/bin/ld: cannot find CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o: No such file or directory
+/usr/bin/ld: cannot find CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o: No such file or directory
+/usr/bin/ld: cannot find CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o: No such file or directory
+/usr/bin/ld: cannot find CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: No such file or directory
+/usr/bin/ld: cannot find CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o: No such file or directory
+/usr/bin/ld: cannot find Unity/src/libunity.a: No such file or directory
+collect2: error: ld returned 1 exit status
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:225: assignment-autotest/assignment-autotest] Error 1
+make[1]: *** [CMakeFiles/Makefile2:130: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/benwafdy/Desktop/assignment-2-AhmedAdelWafdy7/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment2 ~/assignment-2-AhmedAdelWafdy7
+~/assignment-2-AhmedAdelWafdy7/finder-app ~/assignment-2-AhmedAdelWafdy7/assignment-autotest/test/assignment2 ~/assignment-2-AhmedAdelWafdy7
+rm -f writer *.o
+gcc -Wall -g   -c -o writer.o writer.c
+gcc   writer.o   -o writer
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+File '/tmp/aeld-data/AhmedAdelWafdy71.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy72.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy73.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy74.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy75.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy76.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy77.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy78.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy79.txt' created successfully with the content:
+AELD_IS_FUN
+File '/tmp/aeld-data/AhmedAdelWafdy710.txt' created successfully with the content:
+AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment2 complete with success
